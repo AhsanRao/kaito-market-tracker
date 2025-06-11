@@ -4,7 +4,7 @@ TOKEN_ID = "kaito"
 VS_CURRENCY = "usd"
 
 # Analysis Parameters
-DEFAULT_DAYS = 30
+DEFAULT_DAYS = 90
 PRICE_SPIKE_THRESHOLD = 10.0  # percentage
 VOLUME_SPIKE_THRESHOLD = 50.0  # percentage
 

@@ -2,49 +2,151 @@
                     KAITO TOKEN MARKET ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-06-12 01:29:14
-Analysis Period: 2025-05-13 to 2025-06-11
-Duration: 31 days
+Generated: 2025-06-12 02:47:36
+Analysis Period: 2025-03-14 to 2025-06-11
+Duration: 91 days
 
 EXECUTIVE SUMMARY
 ----------------------------------------
-• Current Price: $1.7337
-• 30-Day Change: -1.89% ($-0.0335)
-• Total Volume: $5,214,038,902
-• Volatility: 9.56%
-• Spike Events: 9
+• Current Price: $1.6911
+• 30-Day Change: +20.96% ($+0.2930)
+• Total Volume: $12,010,347,599
+• Volatility: 35.48%
+• Spike Events: 26
 
 PRICE ANALYSIS
 ----------------------------------------
-• Current: $1.7337
+• Current: $1.6911
 • 30-Day High: $2.3102
-• 30-Day Low: $1.6468
-• Average: $1.9024
-• Median: $1.9094
-• Standard Deviation: $0.1819
-• Volatility: 9.56%
+• 30-Day Low: $0.6934
+• Average: $1.3416
+• Median: $1.3230
+• Standard Deviation: $0.4760
+• Volatility: 35.48%
 
 VOLUME ANALYSIS
 ----------------------------------------
-• Total (30d): $5,214,038,902
-• Daily Average: $168,194,803
-• Daily Median: $144,257,759
-• Highest: $412,327,712 on 2025-05-22
-• Lowest: $47,327,220
+• Total (30d): $12,010,347,599
+• Daily Average: $131,981,842
+• Daily Median: $82,064,672
+• Highest: $890,870,289 on 2025-05-08
+• Lowest: $23,041,205
 
 CURRENT MARKET DATA
 ----------------------------------------
-• Market Cap: $418,734,220
-• FDV: $1,734,687,215
+• Market Cap: $408,829,726
+• FDV: $1,693,655,940
 • Circulating Supply: 241,388,889 KAITO
 • Total Supply: 1,000,000,000 KAITO
-• 24h Change: -1.24%
-• 7d Change: +1.90%
-• 30d Change: +4.86%
+• 24h Change: -4.00%
+• 7d Change: +0.88%
+• 30d Change: -1.29%
 
 SPIKE EVENTS TIMELINE
 ----------------------------------------
-Total Events: 9
+Total Events: 26
+
+📍 2025-03-16 00:00
+   Type: Volume
+   Change: +59.82%
+   Price: $1.4448
+   Volume: $nan
+
+📍 2025-03-29 00:00
+   Type: Price & And & Volume
+   Change: -10.86%
+   Price: $nan
+   Volume: $117,332,181
+
+📍 2025-04-03 00:00
+   Type: Price & And & Volume
+   Change: -14.62%
+   Price: $nan
+   Volume: $81,025,732
+
+📍 2025-04-07 00:00
+   Type: Price
+   Change: -17.45%
+   Price: $nan
+   Volume: $45,975,616
+
+📍 2025-04-08 00:00
+   Type: Price & And & Volume
+   Change: +10.52%
+   Price: $nan
+   Volume: $98,642,838
+
+📍 2025-04-11 00:00
+   Type: Price
+   Change: -10.55%
+   Price: $nan
+   Volume: $50,111,526
+
+📍 2025-04-14 00:00
+   Type: Price
+   Change: -11.77%
+   Price: $nan
+   Volume: $61,353,424
+
+📍 2025-04-21 00:00
+   Type: Volume
+   Change: +50.17%
+   Price: $0.7728
+   Volume: $nan
+
+📍 2025-04-23 00:00
+   Type: Volume
+   Change: +59.67%
+   Price: $0.8456
+   Volume: $nan
+
+📍 2025-04-27 00:00
+   Type: Price
+   Change: +14.17%
+   Price: $nan
+   Volume: $71,897,310
+
+📍 2025-04-28 00:00
+   Type: Price
+   Change: -10.21%
+   Price: $nan
+   Volume: $48,554,784
+
+📍 2025-05-02 00:00
+   Type: Volume
+   Change: +83.86%
+   Price: $0.9143
+   Volume: $nan
+
+📍 2025-05-06 00:00
+   Type: Volume
+   Change: +188.35%
+   Price: $0.8206
+   Volume: $nan
+
+📍 2025-05-07 00:00
+   Type: Price
+   Change: +19.71%
+   Price: $nan
+   Volume: $92,453,067
+
+📍 2025-05-08 00:00
+   Type: Price & And & Volume
+   Change: +47.87%
+   Price: $nan
+   Volume: $890,870,289
+
+📍 2025-05-11 00:00
+   Type: Price & And & Volume
+   Change: +38.85%
+   Price: $nan
+   Volume: $741,082,932
+
+📍 2025-05-12 00:00
+   Type: Price
+   Change: -10.00%
+   Price: $nan
+   Volume: $284,750,256
 
 📍 2025-05-17 00:00
    Type: Price
