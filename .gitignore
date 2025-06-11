@@ -8,19 +8,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Ignore data files
-/data/
-*.csv
-
-# Ignore reports
-/reports/
-*.txt
-*.json
-
-# Ignore visualizations
-/visualizations/
-*.png
-
 # OS / Editor specific files
 .DS_Store
 *.swp

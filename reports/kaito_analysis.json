@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "generated_at": "2025-06-12T01:29:14.036352",
+    "token": "kaito",
+    "currency": "usd",
+    "analysis_days": 31
+  },
+  "statistics": {
+    "period": {
+      "start_date": "2025-05-13",
+      "end_date": "2025-06-11",
+      "days": 31
+    },
+    "price": {
+      "current": 1.7336600861716884,
+      "high": 2.310244736318498,
+      "low": 1.6467660014412757,
+      "average": 1.902433010162795,
+      "median": 1.9093844297821578,
+      "std_dev": 0.18189107385734263,
+      "volatility": 9.560971287066652,
+      "change_30d": -1.8934444379801727,
+      "change_30d_usd": -0.03345942611790975
+    },
+    "volume": {
+      "total_30d": 5214038902.1928215,
+      "average_daily": 168194803.2965426,
+      "median_daily": 144257759.2441771,
+      "highest": 412327712.4685301,
+      "lowest": 47327219.84284886,
+      "highest_date": "2025-05-22"
+    },
+    "current_market": {
+      "market_cap": 418734220,
+      "fully_diluted_valuation": 1734687215,
+      "circulating_supply": 241388889.0,
+      "total_supply": 1000000000.0,
+      "max_supply": 1000000000.0,
+      "24h_change": -1.23567,
+      "7d_change": 1.90452,
+      "14d_change": -20.55173,
+      "30d_change": 4.85711,
+      "1y_change": 0.0
+    }
+  },
+  "spike_summary": {
+    "total_spikes": 9,
+    "price_spikes": 7,
+    "volume_spikes": 2,
+    "largest_price_increase": 117.99189179446094,
+    "largest_price_decrease": -13.88217907553485
+  },
+  "spikes": [
+    {
+      "timestamp": "2025-05-17 00:00:00",
+      "date": "2025-05-17",
+      "type": "price",
+      "metric": "price",
+      "direction": "up",
+      "change_pct": 10.854701834884617,
+      "absolute_change": 0.1931576982135066,
+      "value": 1.9726418439017859,
+      "volume": 305417940.3374018,
+      "volume_change_pct": NaN,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-18 00:00:00",
+      "date": "2025-05-18",
+      "type": "price",
+      "metric": "price",
+      "direction": "down",
+      "change_pct": -13.88217907553485,
+      "absolute_change": -0.2738456732893786,
+      "value": 1.6987961706124073,
+      "volume": 181476820.36080217,
+      "volume_change_pct": NaN,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-19 00:00:00",
+      "date": "2025-05-19",
+      "type": "price_and_volume",
+      "metric": "price",
+      "direction": "up",
+      "change_pct": 10.072911139827468,
+      "absolute_change": 0.17111822871257942,
+      "value": 1.8699143993249867,
+      "volume": 282776714.65485203,
+      "volume_change_pct": 55.819742759792135,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-22 00:00:00",
+      "date": "2025-05-22",
+      "type": "price_and_volume",
+      "metric": "price",
+      "direction": "up",
+      "change_pct": 12.584272795186635,
+      "absolute_change": 0.24433453114562553,
+      "value": 2.185920947160709,
+      "volume": 412327712.4685301,
+      "volume_change_pct": 181.61806716184543,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-24 00:00:00",
+      "date": "2025-05-24",
+      "type": "price",
+      "metric": "price",
+      "direction": "down",
+      "change_pct": -12.282034685504595,
+      "absolute_change": -0.2673468965048096,
+      "value": 1.9093844297821578,
+      "volume": 166522430.37948176,
+      "volume_change_pct": NaN,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-28 00:00:00",
+      "date": "2025-05-28",
+      "type": "price_and_volume",
+      "metric": "price",
+      "direction": "up",
+      "change_pct": 13.04714495223851,
+      "absolute_change": 0.2666329871721067,
+      "value": 2.310244736318498,
+      "volume": 174309401.92171678,
+      "volume_change_pct": 92.77462753074144,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-05-30 00:00:00",
+      "date": "2025-05-30",
+      "type": "volume",
+      "metric": "volume",
+      "direction": "up",
+      "change_pct": 117.99189179446094,
+      "absolute_change": 104318595.0503992,
+      "value": 192730259.16043797,
+      "volume": NaN,
+      "volume_change_pct": NaN,
+      "price": 2.220062243862796
+    },
+    {
+      "timestamp": "2025-05-31 00:00:00",
+      "date": "2025-05-31",
+      "type": "price",
+      "metric": "price",
+      "direction": "down",
+      "change_pct": -12.743581758641998,
+      "absolute_change": -0.28291544713939754,
+      "value": 1.9371467967233986,
+      "volume": 239703060.2513233,
+      "volume_change_pct": NaN,
+      "price": NaN
+    },
+    {
+      "timestamp": "2025-06-10 00:00:00",
+      "date": "2025-06-10",
+      "type": "volume",
+      "metric": "volume",
+      "direction": "up",
+      "change_pct": 52.288928383056565,
+      "absolute_change": 34036811.00579017,
+      "value": 99130535.54427062,
+      "volume": NaN,
+      "volume_change_pct": NaN,
+      "price": 1.7722484265242002
+    }
+  ]
+}

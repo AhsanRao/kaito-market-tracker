@@ -1,0 +1,105 @@
+================================================================================
+                    KAITO TOKEN MARKET ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-06-12 01:29:14
+Analysis Period: 2025-05-13 to 2025-06-11
+Duration: 31 days
+
+EXECUTIVE SUMMARY
+----------------------------------------
+• Current Price: $1.7337
+• 30-Day Change: -1.89% ($-0.0335)
+• Total Volume: $5,214,038,902
+• Volatility: 9.56%
+• Spike Events: 9
+
+PRICE ANALYSIS
+----------------------------------------
+• Current: $1.7337
+• 30-Day High: $2.3102
+• 30-Day Low: $1.6468
+• Average: $1.9024
+• Median: $1.9094
+• Standard Deviation: $0.1819
+• Volatility: 9.56%
+
+VOLUME ANALYSIS
+----------------------------------------
+• Total (30d): $5,214,038,902
+• Daily Average: $168,194,803
+• Daily Median: $144,257,759
+• Highest: $412,327,712 on 2025-05-22
+• Lowest: $47,327,220
+
+CURRENT MARKET DATA
+----------------------------------------
+• Market Cap: $418,734,220
+• FDV: $1,734,687,215
+• Circulating Supply: 241,388,889 KAITO
+• Total Supply: 1,000,000,000 KAITO
+• 24h Change: -1.24%
+• 7d Change: +1.90%
+• 30d Change: +4.86%
+
+SPIKE EVENTS TIMELINE
+----------------------------------------
+Total Events: 9
+
+📍 2025-05-17 00:00
+   Type: Price
+   Change: +10.85%
+   Price: $nan
+   Volume: $305,417,940
+
+📍 2025-05-18 00:00
+   Type: Price
+   Change: -13.88%
+   Price: $nan
+   Volume: $181,476,820
+
+📍 2025-05-19 00:00
+   Type: Price & And & Volume
+   Change: +10.07%
+   Price: $nan
+   Volume: $282,776,715
+
+📍 2025-05-22 00:00
+   Type: Price & And & Volume
+   Change: +12.58%
+   Price: $nan
+   Volume: $412,327,712
+
+📍 2025-05-24 00:00
+   Type: Price
+   Change: -12.28%
+   Price: $nan
+   Volume: $166,522,430
+
+📍 2025-05-28 00:00
+   Type: Price & And & Volume
+   Change: +13.05%
+   Price: $nan
+   Volume: $174,309,402
+
+📍 2025-05-30 00:00
+   Type: Volume
+   Change: +117.99%
+   Price: $2.2201
+   Volume: $nan
+
+📍 2025-05-31 00:00
+   Type: Price
+   Change: -12.74%
+   Price: $nan
+   Volume: $239,703,060
+
+📍 2025-06-10 00:00
+   Type: Volume
+   Change: +52.29%
+   Price: $1.7722
+   Volume: $nan
+
+================================================================================
+END OF REPORT
+================================================================================
