@@ -16,6 +16,34 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Password protection
+def check_password():
+    """Returns `True` if the user had the correct password."""
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if st.session_state["password"] == "kaito2025":
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # don't store password
+        else:
+            st.session_state["password_correct"] = False
+
+    if "password_correct" not in st.session_state:
+        # First run, show input for password.
+        st.text_input(
+            "Password", type="password", on_change=password_entered, key="password"
+        )
+        return False
+    elif not st.session_state["password_correct"]:
+        # Password incorrect, show input + error.
+        st.text_input(
+            "Password", type="password", on_change=password_entered, key="password"
+        )
+        st.error("😕 Password incorrect")
+        return False
+    else:
+        # Password correct.
+        return True
+
 # Custom CSS
 st.markdown("""
 <style>
@@ -304,6 +332,10 @@ def create_correlation_matrix(df):
 
 # Main app
 def main():
+    # Check password
+    if not check_password():
+        st.stop()  # Don't continue if check_password returned False
+    
     # Header
     st.markdown('<h1 class="main-header">🚀 KAITO Market Activity Dashboard</h1>', unsafe_allow_html=True)
     
