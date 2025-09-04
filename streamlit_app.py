@@ -17,8 +17,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Hardcoded password
-ADMIN_PASSWORD = "kaito2025market" 
+# Import authentication configuration
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from auth_config import ADMIN_PASSWORD 
 
 # Custom CSS
 st.markdown("""

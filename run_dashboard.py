@@ -3,7 +3,30 @@ import sys
 import subprocess
 import webbrowser
 import time
+import getpass
 from pathlib import Path
+
+# Import authentication configuration
+from auth_config import ADMIN_PASSWORD
+
+def authenticate():
+    """Authenticate user with password"""
+    print("\n🔐 Authentication required to launch dashboard")
+    max_attempts = 3
+    attempts = 0
+    
+    while attempts < max_attempts:
+        password = getpass.getpass("Enter password: ")
+        if password == ADMIN_PASSWORD:
+            print("✅ Authentication successful!\n")
+            return True
+        else:
+            attempts += 1
+            remaining = max_attempts - attempts
+            print(f"❌ Incorrect password! {remaining} attempts remaining.")
+    
+    print("\n🛑 Authentication failed. Access denied.")
+    return False
 
 def check_data_exists():
     """Check if required data files exist"""
@@ -43,6 +66,10 @@ def launch_dashboard():
     print(" " * 15 + "KAITO DASHBOARD LAUNCHER")
     print("=" * 60)
     print()
+    
+    # Authenticate user before proceeding
+    if not authenticate():
+        return 1
     
     # Check prerequisites
     if not check_streamlit_installed():

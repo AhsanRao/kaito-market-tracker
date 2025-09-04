@@ -1,5 +1,6 @@
 import sys
 import argparse
+import getpass
 from datetime import datetime
 import config
 from data_fetcher import DataFetcher
@@ -7,12 +8,37 @@ from data_processor import DataProcessor
 from visualizer import Visualizer
 from report_generator import ReportGenerator
 
+# Import authentication configuration
+from auth_config import ADMIN_PASSWORD
+
 def print_header():
     """Print application header"""
     print("\n" + "=" * 60)
     print(" " * 15 + "KAITO MARKET TRACKER v1.0")
     print("=" * 60)
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+
+def authenticate():
+    """Authenticate user with password"""
+    if __name__ != "__main__":
+        return True
+        
+    print("\n🔐 Authentication required to access market analysis")
+    max_attempts = 3
+    attempts = 0
+    
+    while attempts < max_attempts:
+        password = getpass.getpass("Enter password: ")
+        if password == ADMIN_PASSWORD:
+            print("✅ Authentication successful!\n")
+            return True
+        else:
+            attempts += 1
+            remaining = max_attempts - attempts
+            print(f"❌ Incorrect password! {remaining} attempts remaining.")
+    
+    print("\n🛑 Authentication failed. Access denied.")
+    return False
 
 def main(days: int = None, price_threshold: float = None, volume_threshold: float = None):
     """
@@ -23,6 +49,9 @@ def main(days: int = None, price_threshold: float = None, volume_threshold: floa
         price_threshold: Price spike threshold percentage
         volume_threshold: Volume spike threshold percentage
     """
+    # Authenticate user before proceeding
+    if not authenticate():
+        return 1
     # Use default values if not provided
     days = days or config.DEFAULT_DAYS
     price_threshold = price_threshold or config.PRICE_SPIKE_THRESHOLD
