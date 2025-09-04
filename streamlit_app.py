@@ -5,6 +5,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import json
 import os
+import hashlib
 from datetime import datetime, timedelta
 import numpy as np
 
@@ -15,6 +16,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Hardcoded password
+ADMIN_PASSWORD = "kaito2025market" 
 
 # Custom CSS
 st.markdown("""
@@ -304,8 +308,35 @@ def create_correlation_matrix(df):
 
 # Main app
 def main():
-    # Header
+    # Password protection
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+        
+    if not st.session_state.authenticated:
+        st.markdown('<h1 class="main-header">🚀 KAITO Market Activity Dashboard</h1>', unsafe_allow_html=True)
+        st.markdown("### 🔒 Authentication Required")
+        password = st.text_input("Enter dashboard password:", type="password")
+        
+        if st.button("Login"):
+            if password == ADMIN_PASSWORD:
+                st.session_state.authenticated = True
+                st.experimental_rerun()
+            else:
+                st.error("❌ Incorrect password! Please try again.")
+        
+        # Show some minimal information to unauthenticated users
+        st.markdown("---")
+        st.info("This dashboard contains market analysis data for KAITO token. Please enter the correct password to access the dashboard.")
+        st.stop()
+    
+    # Header - only shown to authenticated users
     st.markdown('<h1 class="main-header">🚀 KAITO Market Activity Dashboard</h1>', unsafe_allow_html=True)
+    
+    # Add logout button in sidebar
+    with st.sidebar:
+        if st.button("🚪 Logout"):
+            st.session_state.authenticated = False
+            st.experimental_rerun()
     
     # Load data
     with st.spinner('Loading data...'):
